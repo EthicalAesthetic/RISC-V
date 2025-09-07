@@ -135,7 +135,7 @@ Processors are present in cars, homes, workplaces, and public spaces, managing e
 ### The Technology Hierarchy
 Technology is a skyscraper; RISC-V defines the processor architecture and assembly language layers:
 
-```mermaid
+```asm
 graph TD
 	A[Applications] --> B[Programming Languages]
 	B --> C[Operating Systems]
