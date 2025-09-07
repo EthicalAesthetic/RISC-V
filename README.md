@@ -526,7 +526,7 @@ Implement bubble sort, quicksort, etc. in RISC-V assembly.
 
 ### Setting Up Your Development Environment
 #### Online Simulators
-- [RISC-V Web IDE](https://riscv.org/explore-risc-v-web-ide/)
+- [RISC-V Web IDE](https://venus.cs61c.org/)
 #### Local Development Setup
 - Spike ISA simulator
 - GDB debugging
