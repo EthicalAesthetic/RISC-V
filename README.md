@@ -8,7 +8,7 @@ A complete guide from fundamentals to advanced RISC-V implementation. This tutor
 
 ## Table of Contents
 
-1. [Introduction: The Digital World Around Us](#introduction)
+1. [Introduction: The Digital World Around Us](#Introduction-The-Digital-World-Around-Us)
 	- Your Daily Life and Processors
 	- Why Understanding Processors Matters
 	- The Technology Hierarchy
@@ -272,8 +272,11 @@ RISC-V has 32 general-purpose registers (x0-x31) plus special registers.
 | x12-x17  | a2-a7    | Arguments    | Args 3-8, caller-saved            |
 | x18-x27  | s2-s11   | Saved        | Callee-saved                      |
 | x28-x31  | t3-t6    | Temporaries  | More caller-saved                 |
+ 
+ <img src="Resources/Screenshot 2025-09-12 090125.png">
 
-#### The Special x0 Register
+
+## The Special x0 Register
 ```assembly
 add x5, x3, x0   # Copy x3 to x5
 add x5, x0, x0   # Clear x5 to zero
